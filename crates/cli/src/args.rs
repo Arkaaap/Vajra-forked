@@ -20,6 +20,9 @@ pub enum Commands {
         #[arg(short = 't', long, required = true)]
         targets: String,
 
+        #[arg(long, help = "Show full verbose CVE details")]
+        depth: bool,
+
         /// Ports to scan. Examples: 80,443 or 1-1024 or 22,80-90
         #[arg(short, long, default_value = "80")]
         ports: String,

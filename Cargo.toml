@@ -52,9 +52,8 @@ wasmtime = "26.0"
 uuid = { version = "1.10", features = ["v4", "serde"] }
 regex = "1.10"
 async-trait = "0.1"
-chrono = "0.4"
 governor = "0.6"
-
+chrono = "0.4"
 [profile.release]
 opt-level = 3
 lto = "fat"
