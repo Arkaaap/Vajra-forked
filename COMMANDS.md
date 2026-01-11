@@ -284,6 +284,13 @@ The table below lists common scan tasks and shows a recommended Vajra command an
 	```bash
 	nmap -sT -sV -p21,22,23 -Pn 23.220.75.245 -T3
 	```
+16) In order to find vulnerabilties {newly added} in vajra using api-key and Not api-key
+- Vajra: 
+	```./target/release/vajra scan -t example.com -> This will fetch latest vulns (ONLY THE CVE AND Interesting part) regarding the service or machine you are testing 
+	```
+	```./target/release/vajra/scan -t example.com --depth -> This will fetch latest vulns regarding the service or machine you are testing whole vuln exposure and description also known as insane verbose mode .
+	```
+
 
 Notes & tips
 - Replace `example.com` with the actual target or IPs. Use `--format json` for machine-readable output.
