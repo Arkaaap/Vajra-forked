@@ -24,7 +24,7 @@ pub enum Commands {
         depth: bool,
 
         /// Ports to scan. Examples: 80,443 or 1-1024 or 22,80-90
-        #[arg(short, long, default_value = "80")]
+        #[arg(short, long, default_value = "80,443,445,21,22,25,53")]
         ports: String,
 
     /// Max concurrent workers
