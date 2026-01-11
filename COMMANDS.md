@@ -292,7 +292,7 @@ The table below lists common scan tasks and shows a recommended Vajra command an
 	```bash
 	./target/release/vajra/scan -t example.com --depth -> This will fetch latest vulns regarding the service or machine you are testing whole vuln exposure and description also known as insane verbose mode .
 	```
-- Api key Genration : 
+- Api key Generation : 
 	```nano 
 	  1. "https://nvd.nist.gov/developers/request-an-api-key" 
 	  2. make a new nice api-key for yourself 
