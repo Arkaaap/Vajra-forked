@@ -295,10 +295,11 @@ The table below lists common scan tasks and shows a recommended Vajra command an
 - Api key Generation : 
 	```nano 
 	  1. "https://nvd.nist.gov/developers/request-an-api-key" 
-	  2. make a new nice api-key for yourself 
+	  2. Give information 
+	  3. make a new nice api-key for yourself 
 	  4. open terminal 
 	  5. export nvd_api="YOUR_API"
-	  6.echo "export nvd_api="YOUR_API"" >>~/ .bashrc
+	  6. echo "export nvd_api="YOUR_API"" >>~/ .bashrc -> For persistence 
 	```
 - Nmap:
 	```bash
@@ -312,6 +313,5 @@ Notes & tips
 - Use `--preset accurate` when you want the scanner to invest more time in banner grabs and version detection.
 
 ```
-
 
 
