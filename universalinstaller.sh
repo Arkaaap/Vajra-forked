@@ -8,7 +8,7 @@
 # environment variable inside .bashrc or .zshrc (Linux/macOS)
 # or Windows user environment variables.
 #
-# DATE: 3/2/2026
+# DATE: 3/4/2026
 # ==============================================================
 
 # Exit immediately if a command fails
