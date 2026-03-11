@@ -1,3 +1,19 @@
+# info 
+This repo is forked from git the original repo at "https://git.vulntech.com/mayur/Vajra"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Vajra Core
 
 Monorepo workspace for Vajra core engine (Rust).
